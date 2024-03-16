@@ -952,12 +952,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8e2d0d8c1961264786d9bd29b1af127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LeanAngle: 15
-  LeanSpeed: 5
-  LeanSpeedMultiplier: 0.2
-  LeanDeadzone: 0.01
+  LeanAngle: 5
+  LeanSpeed: 15
+  LeanSpeedMultiplier: 0.055
+  LeanDeadzone: 0.005
   PlayerController: {fileID: 3122855503829242450}
-  currentLean: 0
+  _lean: 0
 --- !u!1001 &7263037753131886630
 PrefabInstance:
   m_ObjectHideFlags: 0

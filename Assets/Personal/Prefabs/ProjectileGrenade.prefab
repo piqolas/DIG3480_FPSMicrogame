@@ -280,6 +280,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5f5515e88a74d0041a5da45a5a51116b, type: 3}
   - {fileID: 8300000, guid: a43235309be3a554883cecda9ed3d6ae, type: 3}
   - {fileID: 8300000, guid: f90e79bee8e76df4993268e7800573ac, type: 3}
+  _timeShot: 0
 --- !u!114 &6664339710916766920
 MonoBehaviour:
   m_ObjectHideFlags: 0
