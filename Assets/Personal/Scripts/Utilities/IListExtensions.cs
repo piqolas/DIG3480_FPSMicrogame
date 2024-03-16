@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace JohnCon.Util.Ext
+namespace JohnCon.Utilities.Extensions
 {
 	public static class IListExtensions
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace JohnCon.Util
+namespace JohnCon.Utilities
 {
 	public static class SphereDistributor
 	{

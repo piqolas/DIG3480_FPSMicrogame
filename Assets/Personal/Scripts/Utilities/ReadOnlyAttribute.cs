@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace JohnCon.Util.Editor
+namespace JohnCon.Utilities.Editor
 {
 	public class ReadOnlyAttribute : PropertyAttribute { }
 

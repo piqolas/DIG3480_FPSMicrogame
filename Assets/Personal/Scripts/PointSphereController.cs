@@ -1,5 +1,5 @@
 using UnityEngine;
-using JohnCon.Util;
+using JohnCon.Utilities;
 
 namespace JohnCon.Gameplay
 {

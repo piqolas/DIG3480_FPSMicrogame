@@ -18,7 +18,7 @@ namespace JohnCon.Gameplay
 
 		public CharacterController PlayerController; // Reference to the player's Character Controller
 
-		[SerializeField, Util.Editor.ReadOnly]
+		[SerializeField, Utilities.Editor.ReadOnly]
 		private float _lean = 0.0f;
 
 		void Update()

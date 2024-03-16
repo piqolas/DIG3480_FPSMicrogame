@@ -1,7 +1,7 @@
 using Unity.Collections;
 using Unity.FPS.Game;
 using UnityEngine;
-using JohnCon.Util.Ext;
+using JohnCon.Utilities.Extensions;
 
 namespace JohnCon.Gameplay
 {
