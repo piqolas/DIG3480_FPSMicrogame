@@ -31,6 +31,7 @@ namespace Unity.FPS.Game
             source.clip = clip;
             source.spatialBlend = spatialBlend;
             source.minDistance = rolloffDistanceMin;
+			source.spatialize = true;
             source.Play();
 
             source.outputAudioMixerGroup = GetAudioGroup(audioGroup);
