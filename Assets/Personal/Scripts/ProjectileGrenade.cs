@@ -23,12 +23,12 @@ namespace JohnCon.Gameplay
 
 		public AudioClip[] ExplosionSFX;
 
-		public float TimeSinceShot => Time.time - TimeShot;
+		public float TimeSinceShot => Time.time - _timeShot;
 
-		[ReadOnly]
-		private float TimeShot;
+		[SerializeField, Utilities.Editor.ReadOnly]
+		private float _timeShot;
 
-		const QueryTriggerInteraction TriggerInteraction = QueryTriggerInteraction.Collide;
+		private const QueryTriggerInteraction TriggerInteraction = QueryTriggerInteraction.Collide;
 
 		void OnEnable()
 		{
@@ -45,7 +45,7 @@ namespace JohnCon.Gameplay
 
 			transform.rotation = Random.rotation;
 
-			TimeShot = Time.time;
+			_timeShot = Time.time;
 		}
 
 		void Update()
@@ -57,9 +57,7 @@ namespace JohnCon.Gameplay
 		void Explode()
 		{
 			if (AreaDamage)
-			{
 				AreaDamage.InflictDamageInArea(Damage, transform.position, HittableLayers, TriggerInteraction, Owner);
-			}
 
 			if (ExplosionVFX)
 			{

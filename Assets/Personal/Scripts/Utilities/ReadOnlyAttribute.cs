@@ -3,6 +3,10 @@ using UnityEngine;
 
 namespace JohnCon.Utilities.Editor
 {
+	/// <summary>
+	/// Marks a property as non-editable in the Unity Inspector to enforce its read-only status while
+	/// continuing to display it for informational purposes.
+	/// </summary>
 	public class ReadOnlyAttribute : PropertyAttribute { }
 
 	[CustomPropertyDrawer(typeof(ReadOnlyAttribute))]

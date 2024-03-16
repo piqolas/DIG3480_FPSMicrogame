@@ -46,7 +46,7 @@ namespace JohnCon.Utilities
 		{
 			Vector3[] pts = new Vector3[n];
 
-			float eps = GetEpsilon(n); // Assuming GetEpsilon is optimized as needed
+			float eps = GetEpsilon(n);
 			float denom = n - 1.0f + 2.0f * eps;
 
 			for (int i = 0; i < n; i++)
