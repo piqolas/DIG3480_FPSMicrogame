@@ -21,7 +21,9 @@ namespace JohnCon.Gameplay
 		[Range(0.0f, 128.0f)]
 		public float EffectTransitionRate = 6.0f;
 
+		#if UNITY_EDITOR
 		[SerializeField, Utilities.Editor.ReadOnly]
+		#endif
 		private float _transition = 0.0f;
 
 		void Update()

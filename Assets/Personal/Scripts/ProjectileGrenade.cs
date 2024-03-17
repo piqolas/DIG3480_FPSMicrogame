@@ -24,7 +24,9 @@ namespace JohnCon.Gameplay
 
 		public float TimeSinceShot => Time.time - _timeShot;
 
+		#if UNITY_EDITOR
 		[SerializeField, Utilities.Editor.ReadOnly]
+		#endif
 		private float _timeShot;
 
 		private const QueryTriggerInteraction TriggerInteraction = QueryTriggerInteraction.Collide;
